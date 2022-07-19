@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EduFord</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <script src="https://kit.fontawesome.com/e6ec5079f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="index.html"> <img src="./images/logo.png" class="logo" alt="image cannot be loaded"/></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="./courses.html">Course</a></li>
+                  <li><a href="./blog.html">Blog</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                 </ul>
+             </div>
+             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+         </nav>
+        <h1>Our Certificate & Online Program For 2022</h1>
+       
+    </div>
+    <div class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./images/certificate.jpg"/>
+                    <h1>Our Certificate & Online Program For 2022</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero qui quos itaque repudiandae Distinctio eos eligendi temporibus consectetur fugit veniam ut deleniti odit consequatur iure harum tempora <br/>non quia aliquam laboriosam nemo quod fugiat reprehenderit omnis excepturi <br/>aut porro aspernatur error eaque? Eveniet corrupti quis, soluta hic dolorum cupiditate sapiente voluptatibus <br/> explicabo ratione veritatis ipsum eius reiciendis corporis quisquam eligendi enim laudantium at sed! Modi impedit eveniet laboriosam tenetur aut quaerat  quas voluptatem expedita error facilis qui temporibus quam ipsum optio dolorum corrupti aspernatur possimus quod quae harum laborum aliquid! <br/> Aut, necessitatibus quos. Ullam veniam modi quis id iste?</p>
+               <div class="comment-box">
+                   <h3>Leave a comment</h3>
+                   <form class="comment-form">
+                       <input type="text" placeholder="Enter a name"/>
+                       <input type="email" placeholder="Enter a email"/>
+                       <textarea rows="5" placeholder="Your comment"></textarea>
+                       <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                       
+                    </form>
+               </div>
+            </div>
+            <!-- <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Supply Management</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Discrete Mathematics</span>
+                    <span>32</span>
+                </div>
+            
+             </div> -->
+        </div>
+    </div>
+    <div class="footer">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, illo.<br/>Lorem ipsum dolor sit amet.</p>
+        <div class="icons">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            
+        </div>
+    </div>
+    <script>
+        const navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
